@@ -1,7 +1,14 @@
 import { withNavigationWatcher } from './contexts/navigation';
-import { HomePage, DisplayDataPage, ProfilePage } from './pages';
+import { 
+  HomePage, DisplayDataPage, ProfilePage, 
+  BillingProcessList 
+} from './pages';
 
 const routes = [
+  {
+    path: '/billing-process-list',
+    component: BillingProcessList
+  },
   {
     path: '/display-data',
     component: DisplayDataPage
