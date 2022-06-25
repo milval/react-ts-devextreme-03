@@ -1,10 +1,14 @@
 import { withNavigationWatcher } from './contexts/navigation';
 import { 
   HomePage, DisplayDataPage, ProfilePage, 
-  BillingProcessList 
+  BillingProcessList, BillingProcessEdit 
 } from './pages';
 
 const routes = [
+  {
+    path: '/billing-process-edit',
+    component: BillingProcessEdit
+  },
   {
     path: '/billing-process-list',
     component: BillingProcessList

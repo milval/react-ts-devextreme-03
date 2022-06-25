@@ -19,6 +19,10 @@ export const navigation = [
       {
         text: 'Billing Process List',
         path: '/billing-process-list'
+      },
+      {
+        text: 'Billing Process Edit',
+        path: '/billing-process-edit'
       }
     ]
   }

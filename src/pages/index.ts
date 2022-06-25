@@ -2,3 +2,4 @@ export { default as HomePage } from './home/home';
 export { default as ProfilePage } from './profile/profile';
 export { default as DisplayDataPage } from './display-data/display-data';
 export { default as BillingProcessList } from './billing-process-list/billing-process-list';
+export { default as BillingProcessEdit } from './billing-process-edit/billing-process-edit';
