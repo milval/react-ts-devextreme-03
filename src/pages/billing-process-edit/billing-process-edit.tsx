@@ -1,22 +1,34 @@
 
-import React from 'react'
-import 'devextreme/dist/css/dx.light.css';
-import { Form } from 'devextreme-react/form';
+import React, { useState } from 'react'
+import Form from 'devextreme-react/form';
 
-const employee = {
-    name: 'John Heart',
-    officeNumber: 901,
-    hireDate: new Date(2012, 4, 13)
-};
+import './billing-process-edit.scss';
+import ListTest from './ListTest';
+import FormTest from './FormTest';
+import FormTest2 from './FormTest2';
+import ListBootstrapTest from './ListBootstrapTest';
+
+
+  
 
 const BillingProcessEdit = () => {   
 
+    
     return (
         <React.Fragment>
-            <Form
-                formData={employee}>
-            </Form>
+
+
             
+            {/* <FormTest /> */}
+
+            {/* <FormTest2 /> */}
+
+            
+            {/* <ListTest /> */}
+
+
+            <ListBootstrapTest />
+
         </React.Fragment>
     )
 }
